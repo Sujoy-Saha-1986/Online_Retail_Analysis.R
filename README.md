@@ -75,13 +75,13 @@ This project analyzes and visualizes an online retail dataset using R programmin
 
 ## Key Visualizations
 ### 1. Monthly Revenue Trends
-![Monthly Revenue Trends](path/to/image/monthly_revenue.png)
+[![Monthly Revenue Trends](path/to/image/monthly_revenue.png)](https://github.com/Sujoy-Saha-1986/Online_Retail_Analysis.R/blob/main/Images/Total_Revenue_ByMonth.png)
 
 ### 2. Top 10 Countries by Revenue
-![Top Countries](path/to/image/top_countries.png)
+https://github.com/Sujoy-Saha-1986/Online_Retail_Analysis.R/blob/main/Images/Top%2010%20Countries%20by%20Revenue.png
 
 ### 3. Scatter Plot: Quantity vs. Unit Price
-![Scatter Plot](path/to/image/scatter_plot.png)
+https://github.com/Sujoy-Saha-1986/Online_Retail_Analysis.R/blob/main/Images/Scatter%20Plot%3AQuantity%20Vs.Unit%20Price.png
 
 ---
 
