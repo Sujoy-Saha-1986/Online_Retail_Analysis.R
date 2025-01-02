@@ -75,7 +75,7 @@ This project analyzes and visualizes an online retail dataset using R programmin
 
 ## Key Visualizations
 ### 1. Monthly Revenue Trends
-[![Monthly Revenue Trends](path/to/image/monthly_revenue.png)](https://github.com/Sujoy-Saha-1986/Online_Retail_Analysis.R/blob/main/Images/Total_Revenue_ByMonth.png)
+https://github.com/Sujoy-Saha-1986/Online_Retail_Analysis.R/blob/main/Images/Total_Revenue_ByMonth.png
 
 ### 2. Top 10 Countries by Revenue
 https://github.com/Sujoy-Saha-1986/Online_Retail_Analysis.R/blob/main/Images/Top%2010%20Countries%20by%20Revenue.png
