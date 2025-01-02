@@ -2,44 +2,27 @@ library(readxl)
 online <- read_excel("online_retail_II.xlsx")
 View(online)
 
-# dimension of dataset
 dim(online)
-
-# check all the column name
 
 names(online)
 
-# check the data type
-
 str(online)
 
-# check the missing values in each column
 
 summary(online)
 
-# summary function only shows the missing values for the numeric data type but not for the character data type.
-
-# the best way to find the missing values for all the columns with different data type is as below
 
 colSums(is.na(online))
 
-# we can see the missing values of column CustomerID 
-
-# find specifically how many missing values in column CustomerID
-
-# now replace the missing values of CustomerID with mean of the dataset
 
 online$`Customer ID`[is.na(online$`Customer ID`)]<-mean(online$`Customer ID`,na.rm = TRUE)
 
 
-# check if the missing values removed or not
 
 sum(is.na(online$`Customer ID`))
 
 colSums(is.na(online))
 
-# if we want to replace the missing value with the mode of the column(note: check the replacing by "mean" and "mode" separately)
-# first find the mode of the column CustomerID and replace the missing values with mode.
 
 mode_Customer_ID<-names(sort(table(online$`Customer ID`),Decrease=TRUE))[1]
 
@@ -50,35 +33,22 @@ online$`Customer ID`[is.na(online$`Customer ID`)]<-mode_Customer_ID
 
 
 
-# check if there is further missing values or replaced by mode
-
 sum(is.na(online$`Customer ID`))
 
-# now handle the missig values of Column Description
-# find the specific number of missing values in column "Description"
 
 sum(is.na(online$Description))
 
 
-
-
-# Replace missing values in the Description column with "Unknown".
 
 online$Description[is.na(online$Description)]<-"Unknown"
 
 sum(is.na(online$Description))
 
 
-# now see how many "Unknown" replaced values in the Description column & must be same as the missing values we had
-
 sum(online$Description=="Unknown")
-
-# now check if all the missing values are removed and replaced as "Unknown" or not
 
 sum(is.na(online$Description))
 
-
-# for practice => how many "CHRYSANTHEMUM NOTEBOOK" in the column "Description"
 
 sum(online$Description== "CHRYSANTHEMUM NOTEBOOK",na.rm=TRUE)
 
