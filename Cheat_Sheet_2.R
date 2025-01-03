@@ -2,6 +2,7 @@ library(readxl)
 online <- read_excel("online_retail_II.xlsx")
 View(online)
 
+# see the dimension of the dataset
 dim(online)
 
 names(online)
