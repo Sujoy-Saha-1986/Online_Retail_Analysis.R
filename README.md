@@ -81,7 +81,7 @@ https://github.com/Sujoy-Saha-1986/Online_Retail_Analysis.R/blob/main/Images/Tot
 https://github.com/Sujoy-Saha-1986/Online_Retail_Analysis.R/blob/main/Images/Top%2010%20Countries%20by%20Revenue.png
 
 ### 3. Scatter Plot: Quantity vs. Unit Price
-https://github.com/Sujoy-Saha-1986/Online_Retail_Analysis.R/blob/main/Images/Scatter%20Plot%3AQuantity%20Vs.Unit%20Price.png
+https://github.com/Sujoy-Saha-1986/Online_Retail_Analysis.R/blob/main/Images/Scatter%20Plot%3A%20Quantity%20VS%20Unit.png
 
 ---
 
