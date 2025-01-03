@@ -181,9 +181,10 @@ ggplot(data = top_countries, aes(x = reorder(Country, -Total_Revenue), y = Total
 #Create a scatter plot of Quantity vs. UnitPrice.
 
 # Scatter Plot of Quantity vs. UnitPrice
-ggplot(data = online, aes(x = Quantity, y = Price)) +
+ggplot(data = online, aes(x = abs(Quantity), y = abs(Price))) +
   geom_point(alpha = 0.5, color = "darkgreen") +
-  labs(title = "Scatter Plot: Quantity vs. UnitPrice", x = "Quantity", y = "UnitPrice") +
+  labs(title = "Quantity vs. UnitPrice", x = "Quantity", y = "UnitPrice") +
+  geom_smooth(method = "lm", se=TRUE)+
   theme_minimal()
 
 
